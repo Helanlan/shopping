@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gougou-eureka" />
+        <module name="gougou-commom-db" />
+        <module name="gougou-service-goods-api" />
+        <module name="gougou-service-file" />
+        <module name="code-template" />
+        <module name="gougou-commom" />
+        <module name="gougou-service-api-goods" />
+        <module name="gougou-service-goods" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-template" target="1.8" />
+      <module name="gougou-commom" target="1.8" />
+      <module name="gougou-commom-db" target="1.8" />
+      <module name="gougou-eureka" target="1.8" />
+      <module name="gougou-gateway" target="1.8" />
+      <module name="gougou-service" target="1.8" />
+      <module name="gougou-service-api" target="1.8" />
+      <module name="gougou-service-api-goods" target="1.8" />
+      <module name="gougou-service-file" target="1.8" />
+      <module name="gougou-service-goods" target="1.8" />
+      <module name="gougou-service-goods-api" target="1.8" />
+      <module name="gougou-web" target="1.8" />
+      <module name="gougou_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gougou-commom" options="-parameters" />
+      <module name="gougou-commom-db" options="-parameters" />
+      <module name="gougou-eureka" options="-parameters" />
+      <module name="gougou-gateway" options="-parameters" />
+      <module name="gougou-service" options="-parameters" />
+      <module name="gougou-service-api" options="-parameters" />
+      <module name="gougou-service-api-goods" options="-parameters" />
+      <module name="gougou-service-file" options="-parameters" />
+      <module name="gougou-service-goods" options="-parameters" />
+      <module name="gougou-service-goods-api" options="-parameters" />
+      <module name="gougou-web" options="-parameters" />
+    </option>
+  </component>
+</project>

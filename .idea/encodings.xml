@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-commom-db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-commom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-service-api/gougou-service-goods-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-service/gougou-service-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-service/gougou-service-goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gougou_parent/gougou-web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

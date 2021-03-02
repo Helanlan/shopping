@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: goods
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gou_goods?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT
+    username: root
+    password: 12345678
+  mvc:
+    view:
+      prefix:
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+    instance:
+      perfer-ip-address: true  #以IP地址注册到服务中心，相互注册使用IP地址
+feign: #Feign是一个声明式WebService客户端
+  hystrix:
+    enabled: true
+
+#可以不配置，我们用0sql
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.gg.goods.pojo
